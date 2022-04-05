@@ -1,0 +1,17 @@
+.video_item {
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid lightgray;
+  display: flex;
+  gap: 0 0.5rem;
+  cursor: pointer;
+  transition: transform ease-in-out 0.2s;
+}
+
+.video_item:hover {
+  transform: scale(1.02);
+}
+
+.thumbnails {
+  width: 40%;
+}
